@@ -9,6 +9,7 @@ import UserContext from './contexts/UserContext';
 
 import useToken from './hooks/useToken';
 import { useState } from 'react';
+import PsyDashboard from './pages/Psy-dashboard';
 
 export default function App() {
   const loggedUser = JSON.parse(localStorage.getItem('driventUser'));
@@ -20,7 +21,7 @@ export default function App() {
       <UserContext.Provider value={{ user, setUser }}>
         <Router>
           <Routes>
-            <Route path="/enroll" element={user ? <Navigate replace to={'/dashboard'}/> :<Enroll />} />
+            <Route path="/" element={user ? <Navigate replace to={'/dashboard'}/> : <Navigate replace to={'/sign-in'}/>} />
             <Route path="/sign-in" element={<SignIn />} />
 
             <Route
@@ -30,8 +31,13 @@ export default function App() {
                   <Dashboard />
                 </ProtectedRouteGuard>
               }
-            >
-            </Route>
+            ></Route>
+            <Route
+              path="/psy-dashboard"
+              element={
+                <PsyDashboard />
+              }
+            ></Route>
           </Routes>
         </Router>
       </UserContext.Provider>

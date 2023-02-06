@@ -6,7 +6,7 @@ export const StyledContainer = styled(Container)`
   font-size: 16px;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   box-sizing:border-box;
   padding: 30px;
   img {
@@ -30,7 +30,6 @@ export const LogoDiv = styled.div`
   width: 100%;
   display:flex;
   justify-content:center;
-  position:fixed;
   right: 250px;
 `;
 
@@ -70,58 +69,51 @@ export const Line2 = styled.div`
 `;
 export const ConteinerLineHorizontal = styled.div`
   width:100%;
-  height: 100%;
   display: flex;
   flex-direction:column;
-  position:fixed;
-  top: 0;
 `;
 
 export const Line0h = styled.div`
-  position:relative;
-  width: 68.5%;
+  margin-bottom: 20px;
+  width: 100%;
   height: 2px;
   background-color: #6579F9;
-  top: 480px;
+  margin-top: 20px;
 `;
 
 export const Line1h = styled.div`
-  position:relative;
-  width: 68.5%;
+  margin-bottom: 20px;
+  width: 100%;
   height: 2px;
   background-color: #6579F9;
-  top: 500px;
 `;
 
 export const Line2h = styled.div`
-  position:relative;
-  width: 68.5%;
+  margin-bottom: 20px;
+  width: 100%;
   height: 2px;
   background-color: #6579F9;
-  top: 520px;
 `;
 export const Line0h0 = styled.div`
-  position:relative;
-  width: 68.5%;
+  margin-bottom: 20px;
+  width: 100%;
   height: 2px;
   background-color: #6579F9;
-  top: 80px;
+  margin-top: 20px;
 `;
 
 export const Line1h1 = styled.div`
-  position:relative;
-  width: 68.5%;
+  width: 100%;
   height: 2px;
   background-color: #6579F9;
-  top: 100px;
+  margin-bottom: 20px;
 `;
 
 export const Line2h2 = styled.div`
-  position:relative;
-  width: 68.5%;
+  width: 100%;
   height: 2px;
   background-color: #6579F9;
-  top: 120px;
+  margin-bottom: 20px;
 `;
 
 export const ConteinerImg = styled.div`
@@ -132,7 +124,7 @@ export const ConteinerImg = styled.div`
 
 export const Title = styled.h1`
   font-size: 35px;
-  margin-top: 10px;
+  margin: 10px 0 20px 0;
   color: white;
 `;
 

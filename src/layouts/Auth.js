@@ -24,11 +24,9 @@ export default function AuthLayout({ background, children, backgroundCont }) {
         <Slide timeout={1800} direction="right" in={isStarted} mountOnEnter unmountOnExit>
           <Line2h2></Line2h2>
         </Slide>
-      </ConteinerLineHorizontal>
       <LogoDiv >
         <img src={logo1}/>
       </LogoDiv>
-      <ConteinerLineHorizontal>
         <Slide timeout={1800} direction="right" in={isStarted} mountOnEnter unmountOnExit>
           <Line0h></Line0h>
         </Slide>
@@ -38,7 +36,6 @@ export default function AuthLayout({ background, children, backgroundCont }) {
         <Slide timeout={1800} direction="right" in={isStarted} mountOnEnter unmountOnExit>
           <Line2h></Line2h>
         </Slide>
-
       </ConteinerLineHorizontal>
       <Slide  timeout={2000} direction="right" in={isStarted} mountOnEnter unmountOnExit>
         <StyledContainer width="400px" height="520px" backgroundCont={backgroundCont}>

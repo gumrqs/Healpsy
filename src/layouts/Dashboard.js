@@ -27,11 +27,9 @@ export default function Dashboard({ background, children }) {
         <Slide timeout={1800} direction="right" in={isStarted} mountOnEnter unmountOnExit>
           <Line2h2></Line2h2>
         </Slide>
-      </ConteinerLineHorizontal>
       <ContImg>
         <img src={logo3}/>
       </ContImg>
-      <ConteinerLineHorizontal>
         <Slide timeout={1800} direction="right" in={isStarted} mountOnEnter unmountOnExit>
           <Line0h></Line0h>
         </Slide>
@@ -44,7 +42,7 @@ export default function Dashboard({ background, children }) {
 
       </ConteinerLineHorizontal>
       <Slide  timeout={2000} direction="right" in={isStarted} mountOnEnter unmountOnExit>
-        <StyledContainer width="740px" height="550px">
+        <StyledContainer width="740px" height="570px">
           {children}
         </StyledContainer>
       </Slide>
@@ -57,7 +55,6 @@ const ContImg = styled.div`
   justify-content: center;
   img{
     width: 240px;
-    position: fixed;
     left: 200px;
     top: 180px;
   }

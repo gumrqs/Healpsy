@@ -19,7 +19,7 @@
         "react": "^17.0.0",
         "react-credit-cards-2": "^0.9.0",
         "react-dom": "^17.0.2",
-        "react-icons": "^4.2.0",
+        "react-icons": "^4.7.1",
         "react-input-mask": "^2.0.4",
         "react-loader-spinner": "^4.0.0",
         "react-router-dom": "^6.3.0",
@@ -44,81 +44,7 @@
         ],
         "rules": {
             "react-hooks/exhaustive-deps": "off",
-            "react-hooks/rules-of-hooks": "off",
-            "indent": [
-                "error",
-                2
-            ],
-            "linebreak-style": 0,
-            "quotes": [
-                "error",
-                "single"
-            ],
-            "semi": [
-                "error",
-                "always"
-            ],
-            "comma-spacing": [
-                "error",
-                {
-                    "before": false,
-                    "after": true
-                }
-            ],
-            "semi-spacing": [
-                "error",
-                {
-                    "before": false,
-                    "after": true
-                }
-            ],
-            "object-curly-spacing": [
-                "error",
-                "always"
-            ],
-            "key-spacing": [
-                "error",
-                {
-                    "beforeColon": false
-                }
-            ],
-            "padded-blocks": [
-                "error",
-                "never"
-            ],
-            "no-multiple-empty-lines": [
-                "error",
-                {
-                    "max": 1
-                }
-            ],
-            "lines-between-class-members": [
-                "error",
-                "always",
-                {
-                    "exceptAfterSingleLine": true
-                }
-            ],
-            "space-before-function-paren": [
-                "error",
-                "never"
-            ],
-            "space-before-blocks": [
-                "error",
-                "always"
-            ],
-            "eol-last": [
-                "error",
-                "always"
-            ],
-            "arrow-spacing": [
-                "error",
-                {
-                    "before": true,
-                    "after": true
-                }
-            ],
-            "no-console": "warn"
+            "react-hooks/rules-of-hooks": "off"
         }
     },
     "browserslist": {

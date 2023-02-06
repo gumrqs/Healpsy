@@ -44,7 +44,7 @@ export default function SignIn() {
 
   return (
     <>
-      <AuthLayout backgroundCont={loginBackground}>
+      <AuthLayout backgroundCont={loginBackground} background={'#f7efa5'}>
         <Row>
           <Title>Escolha sua forma de login</Title>
         </Row>
@@ -72,7 +72,7 @@ export default function SignIn() {
           </Row>
           :
           <></>
-        };
+        }
       </AuthLayout>
     </>
   );

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c4276236.css",
+    "main.js": "/static/js/main.8934fcf5.js",
+    "static/media/logo1.png": "/static/media/logo1.2208d98adc52cd7e19b0.png",
+    "static/media/logo3.png": "/static/media/logo3.fc8130361db89e3c9e17.png",
+    "static/media/psy.png": "/static/media/psy.c6f77a5a82a69e887f28.png",
+    "static/media/paciente.png": "/static/media/paciente.edd5048fbdcb69740242.png",
+    "index.html": "/index.html",
+    "main.c4276236.css.map": "/static/css/main.c4276236.css.map",
+    "main.8934fcf5.js.map": "/static/js/main.8934fcf5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4276236.css",
+    "static/js/main.8934fcf5.js"
+  ]
+}
